@@ -32,11 +32,11 @@ $(function () {
   });
 
   //contactの透明化
-  $(".contact-list >img").on('mouseover', function () {
+  $(".contact-list > a").on('mouseover', function () {
     $(this).css('opacity', '1.0');
   });
-  $(".contact-list > img").on('mouseout', function () {
-    $(this).css('opacity', '0.6');
+  $(".contact-list > a").on('mouseout', function () {
+    $(this).css('opacity', '0.5');
   });
 
 
