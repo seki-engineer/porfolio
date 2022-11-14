@@ -6,6 +6,7 @@ body {
 }
 
 a {
+  color: #C7EEFF;
   text-decoration: none;
 }
 
@@ -94,14 +95,15 @@ loading
 ---------------------------------*/
 .header {
   background-color: #4D6DE3;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .gnav-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
+  padding: 15px 0px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -128,7 +130,7 @@ loading
 .mv h1 {
   position: absolute;
   top: 75px;
-  left: 0;
+  left: 20px;
   font-family: "Maru Folk Heavy", sans-serif;
   font-size: 60px;
   font-style: italic;
@@ -146,7 +148,7 @@ loading
  見出し
 ---------------------------------*/
 .title {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
@@ -283,7 +285,7 @@ loading
 }
 
 .page-top img {
-  width: 5%;
+  width: 3%;
   border-radius: 50%;
 }
 
